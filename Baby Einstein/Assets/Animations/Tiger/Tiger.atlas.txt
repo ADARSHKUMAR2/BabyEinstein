@@ -1,0 +1,139 @@
+
+Tiger.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Face
+  rotate: false
+  xy: 2, 338
+  size: 208, 163
+  orig: 208, 163
+  offset: 0, 0
+  index: -1
+L ear
+  rotate: true
+  xy: 320, 294
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+L eye
+  rotate: true
+  xy: 212, 301
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+L eyeblink
+  rotate: true
+  xy: 269, 302
+  size: 40, 49
+  orig: 40, 49
+  offset: 0, 0
+  index: -1
+L eyebro
+  rotate: true
+  xy: 360, 310
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 330, 362
+  size: 77, 47
+  orig: 77, 47
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: true
+  xy: 436, 278
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+L pupil
+  rotate: true
+  xy: 360, 273
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 409, 369
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+Mouth base
+  rotate: true
+  xy: 330, 411
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 325, 329
+  size: 54, 31
+  orig: 54, 31
+  offset: 0, 0
+  index: -1
+R ear
+  rotate: true
+  xy: 212, 341
+  size: 51, 55
+  orig: 51, 55
+  offset: 0, 0
+  index: -1
+R eye
+  rotate: true
+  xy: 381, 302
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+R eyeblink
+  rotate: true
+  xy: 269, 344
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+R eyebro
+  rotate: false
+  xy: 409, 350
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: true
+  xy: 437, 355
+  size: 85, 59
+  orig: 85, 59
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: true
+  xy: 437, 442
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+R pupil
+  rotate: false
+  xy: 261, 267
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 212, 394
+  size: 116, 107
+  orig: 116, 107
+  offset: 0, 0
+  index: -1
