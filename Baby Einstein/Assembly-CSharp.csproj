@@ -63,14 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Horizontal Fit 2D 3\_Scripts\CameraSizeHandler.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\EnumAudioTypes.cs" />
     <Compile Include="Assets\Scripts\EnumTypes.cs" />
-    <None Include="Assets\Animations\Dog\Dog.atlas.txt" />
-    <None Include="Assets\Knight Files\Read Me.txt" />
-    <None Include="Assets\Animations\Tiger\Tiger.atlas.txt" />
+    <Compile Include="Assets\Scripts\FollowGyro.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GyroManager.cs" />
+    <Compile Include="Assets\Scripts\Parallex.cs" />
+    <None Include="Assets\AnimalsSprites\Tiger\Tiger.atlas.txt" />
     <None Include="Assets\Spine\version.txt" />
-    <None Include="Assets\Animations\Dog.atlas.txt" />
+    <None Include="Assets\AnimalsSprites\Dog\Dog.atlas.txt" />
+    <None Include="Assets\Horizontal Fit 2D 3\Reedme.txt" />
+    <None Include="Assets\AnimalsSprites\Giraffe\Giraffe.atlas.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/adarsh/Downloads/Baby Einstein/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

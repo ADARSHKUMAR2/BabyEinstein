@@ -6,12 +6,25 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
+
     [SerializeField]
     private AnimationReferenceAsset[] anims;
 
     [SerializeField]
     private SkeletonAnimation skeletonAnimation;
 
+    [SerializeField]
+    private string currentState;
+
+    [SerializeField]
+    private string currentAnimation;
+
+
+    private void Start()
+    {
+        currentState = anims[0].name;
+        SetCharacterState(currentState);
+    }
 
     private void FixedUpdate()
     {
@@ -22,10 +35,13 @@ public class Character : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(ray.origin,ray.direction,Mathf.Infinity);
             if (hit.collider != null)
             {
-                //cube.SetActive(true);
                 Debug.Log("I'm hitting " + hit.collider.tag);
                 if (hit.collider.gameObject.tag == gameObject.tag)
-                    RunCoreAnim();
+                {
+                    SetCharacterState(anims[1].name);
+                    //audioSource.PlayOneShot(clips[0]);
+                }
+
             }
             
         }
@@ -33,14 +49,36 @@ public class Character : MonoBehaviour
         
     }
 
-    public void RunIdleAnim()
+    public void SetAnimation(AnimationReferenceAsset animation,bool loop,float timeScale)
     {
+        if(animation.name.Equals(currentAnimation))
+        {
+            return;
+        }
 
-        skeletonAnimation.AnimationState.SetAnimation(1, anims[0], true);
+        skeletonAnimation.state.SetAnimation(0, animation, loop).TimeScale = timeScale;
+        currentAnimation = animation.name;
     }
 
-    public void RunCoreAnim()
+    public void SetCharacterState(string state)
     {
-        skeletonAnimation.AnimationState.SetAnimation(2, anims[1], false);
+        if(state.Equals(anims[0].name))
+        {
+            SetAnimation(anims[0], true, 1f);
+        }
+
+        else if(state.Equals(anims[1].name))
+        {
+            SetAnimation(anims[1], false, 1f);
+            StartCoroutine(IDleAnim());
+        }
     }
+
+    private IEnumerator IDleAnim()
+    {
+        yield return new WaitForSeconds(1f);
+        SetAnimation(anims[0], true, 1f);
+        
+    }
+
 }

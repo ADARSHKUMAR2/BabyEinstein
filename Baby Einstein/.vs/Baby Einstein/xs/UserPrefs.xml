@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{E0724611-656E-8A67-54DD-5AE4023556E5}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character.cs">
     <Files>
-      <File FileName="Assets/Scripts/CharacterController.cs" Line="7" Column="7" />
-      <File FileName="Assets/Scripts/Character.cs" Line="33" Column="9" />
-      <File FileName="Assets/Scripts/EnumTypes.cs" Line="6" Column="2" />
-      <File FileName="Assets/Spine/Runtime/spine-csharp/AnimationState.cs" Line="531" Column="21" />
+      <File FileName="Assets/Scripts/EnumAudioTypes.cs" Line="3" Column="12" />
+      <File FileName="Assets/Scripts/Character.cs" Line="94" Column="1" />
+      <File FileName="Assets/Scripts/EnumTypes.cs" />
+      <File FileName="Assets/Spine/Runtime/spine-csharp/AnimationState.cs" />
+      <File FileName="Assets/Scripts/Parallex.cs" />
+      <File FileName="Assets/Scripts/GyroManager.cs" />
+      <File FileName="Assets/Scripts/FollowGyro.cs" />
+      <File FileName="Assets/Horizontal Fit 2D 3/_Scripts/CameraSizeHandler.cs" Line="24" Column="35" />
+      <File FileName="Assets/Horizontal Fit 2D 3/_Scripts/Editor/CSHEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c6750bbf-131d-4043-9a86-a42379c16279" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fe429a2-c449-4bef-9fb4-2705b9720a6c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

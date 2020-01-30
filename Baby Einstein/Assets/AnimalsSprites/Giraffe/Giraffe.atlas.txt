@@ -1,0 +1,153 @@
+
+Giraffe.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Head
+  rotate: false
+  xy: 2, 770
+  size: 194, 247
+  orig: 194, 247
+  offset: 0, 0
+  index: -1
+L ear
+  rotate: true
+  xy: 85, 317
+  size: 95, 87
+  orig: 95, 87
+  offset: 0, 0
+  index: -1
+L eye
+  rotate: false
+  xy: 89, 121
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
+L eyeblink
+  rotate: false
+  xy: 133, 181
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
+L eyebro
+  rotate: false
+  xy: 165, 289
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: true
+  xy: 2, 171
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+L horn
+  rotate: true
+  xy: 85, 175
+  size: 58, 46
+  orig: 58, 46
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 85, 235
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+L pupil
+  rotate: false
+  xy: 139, 422
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 111, 415
+  size: 42, 26
+  orig: 42, 26
+  offset: 0, 0
+  index: -1
+Mouth base
+  rotate: true
+  xy: 2, 414
+  size: 130, 107
+  orig: 130, 107
+  offset: 0, 0
+  index: -1
+R ear
+  rotate: false
+  xy: 111, 459
+  size: 81, 85
+  orig: 81, 85
+  offset: 0, 0
+  index: -1
+R eye
+  rotate: true
+  xy: 114, 85
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+R eyeblink
+  rotate: false
+  xy: 142, 129
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+R eyebro
+  rotate: false
+  xy: 2, 2
+  size: 25, 7
+  orig: 25, 7
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: true
+  xy: 2, 285
+  size: 127, 81
+  orig: 127, 81
+  offset: 0, 0
+  index: -1
+R horn
+  rotate: true
+  xy: 78, 11
+  size: 59, 54
+  orig: 59, 54
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 2, 72
+  size: 85, 97
+  orig: 85, 97
+  offset: 0, 0
+  index: -1
+R pupil
+  rotate: false
+  xy: 89, 84
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: true
+  xy: 2, 11
+  size: 59, 74
+  orig: 59, 74
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 2, 546
+  size: 167, 222
+  orig: 167, 222
+  offset: 0, 0
+  index: -1
