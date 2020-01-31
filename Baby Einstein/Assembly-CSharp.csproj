@@ -64,13 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Horizontal Fit 2D 3\_Scripts\CameraSizeHandler.cs" />
+    <Compile Include="Assets\Scripts\AccelerometerManager.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\EnumAudioTypes.cs" />
     <Compile Include="Assets\Scripts\EnumTypes.cs" />
-    <Compile Include="Assets\Scripts\FollowGyro.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GyroManager.cs" />
-    <Compile Include="Assets\Scripts\Parallex.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+    <None Include="Assets\AnimalsSprites\Zebra\Zebra.atlas.txt" />
     <None Include="Assets\AnimalsSprites\Tiger\Tiger.atlas.txt" />
     <None Include="Assets\Spine\version.txt" />
     <None Include="Assets\AnimalsSprites\Dog\Dog.atlas.txt" />

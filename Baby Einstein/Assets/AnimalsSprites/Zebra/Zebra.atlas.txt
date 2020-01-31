@@ -1,0 +1,132 @@
+
+Zebra.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Head
+  rotate: false
+  xy: 2, 277
+  size: 203, 233
+  orig: 203, 233
+  offset: 0, 0
+  index: -1
+L blink
+  rotate: false
+  xy: 212, 25
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+L ear
+  rotate: true
+  xy: 130, 2
+  size: 67, 80
+  orig: 67, 88
+  offset: 0, 8
+  index: -1
+L eye
+  rotate: false
+  xy: 240, 153
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+L eyebro
+  rotate: true
+  xy: 212, 6
+  size: 17, 34
+  orig: 17, 35
+  offset: 0, 1
+  index: -1
+L hand
+  rotate: true
+  xy: 207, 303
+  size: 99, 79
+  orig: 99, 79
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 288, 314
+  size: 82, 88
+  orig: 82, 88
+  offset: 0, 0
+  index: -1
+L pupil
+  rotate: false
+  xy: 320, 275
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 256, 96
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+Mouth base
+  rotate: true
+  xy: 136, 139
+  size: 136, 102
+  orig: 136, 102
+  offset: 0, 0
+  index: -1
+R blink
+  rotate: true
+  xy: 136, 78
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+R ear
+  rotate: false
+  xy: 240, 206
+  size: 78, 95
+  orig: 78, 95
+  offset: 0, 0
+  index: -1
+R eye
+  rotate: true
+  xy: 196, 78
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+R eyebro
+  rotate: true
+  xy: 320, 237
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 207, 404
+  size: 100, 106
+  orig: 100, 106
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: true
+  xy: 2, 3
+  size: 66, 126
+  orig: 66, 126
+  offset: 0, 0
+  index: -1
+R pupil
+  rotate: true
+  xy: 287, 166
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 2, 71
+  size: 132, 204
+  orig: 132, 204
+  offset: 0, 0
+  index: -1
