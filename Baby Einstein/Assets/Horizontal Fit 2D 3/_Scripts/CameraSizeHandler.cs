@@ -8,8 +8,8 @@ public class CameraSizeHandler : MonoBehaviour
     public float height, width;
     public bool keepBottomPos = true;
     public Transform thisTransform;
-    public float defaultScreenSize = 7.25f;
-    public float targetAspect = 0.5622733f;
+    public float defaultScreenSize = 15.4f;
+    public float targetAspect = 1.77778f;
     private float posDiff;
     private Vector3 targetPos;
 
@@ -25,10 +25,10 @@ public class CameraSizeHandler : MonoBehaviour
     {
         float size = cam.aspect;
         Debug.Log("Size---->" + size);
-        if (size > targetAspect)
+        if (size < targetAspect)
             cam.orthographicSize = defaultScreenSize;
         else
-            cam.orthographicSize = (height / Screen.width * Screen.height) / 2;
+            cam.orthographicSize = ( height / (Screen.width * Screen.height) ) / 2;
         UpdatePosition();
     }
 

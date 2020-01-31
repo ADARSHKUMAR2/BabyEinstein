@@ -32,9 +32,9 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator FirstTextOnScreen()
     {
-        yield return new WaitForSeconds(5f);
-        first_Text.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
+        first_Text.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
         first_Text.gameObject.SetActive(false);
     }
 

@@ -21,7 +21,8 @@ public class AccelerometerManager : MonoBehaviour
     void Update()
     {
         float accelerometer_value = Input.acceleration.x;
-        direction = (float)(System.Math.Round(accelerometer_value , 3)) * speed * Time.deltaTime * 50;
+        //direction = (float)(System.Math.Round(accelerometer_value , 3)) * speed * Time.deltaTime * 50;
+        direction = accelerometer_value * speed * Time.deltaTime * 50;
         //Debug.Log(Time.deltaTime);
         //Debug.Log(direction);
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, pos - (speed/6) , pos + (speed/6)), transform.position.y);

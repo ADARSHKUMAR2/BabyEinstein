@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-
+    private UIScript uiScript;
     [SerializeField]
     private AnimationReferenceAsset[] anims;
 
@@ -22,6 +22,7 @@ public class Character : MonoBehaviour
 
     private void Start()
     {
+        uiScript = GetComponent<UIScript>();
         currentState = anims[0].name;
         SetCharacterState(currentState);
     }
@@ -41,6 +42,7 @@ public class Character : MonoBehaviour
                 if (hit.collider.gameObject.tag == gameObject.tag)
                 {
                     SetCharacterState(anims[1].name);
+                    uiScript.EndAnimationText2();
                 }
                 //if(hit.collider.gameObject.tag == "Plants")
                 //{

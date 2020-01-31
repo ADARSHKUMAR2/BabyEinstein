@@ -110,6 +110,7 @@
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+    <None Include="Assets\AnimalsSprites\BigLeaf (3)\BigLeaf.atlas.txt" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
     <None Include="Assets\AnimalsSprites\Zebra\Zebra.atlas.txt" />
@@ -117,9 +118,11 @@
     <None Include="Assets\Shaders\Outlined_Diffused.shader" />
     <None Include="Assets\Spine\version.txt" />
     <None Include="Assets\AnimalsSprites\Dog\Dog.atlas.txt" />
+    <None Include="Assets\Shaders\Outline.shader" />
     <None Include="Assets\Horizontal Fit 2D 3\Reedme.txt" />
     <None Include="Assets\AnimalsSprites\Giraffe\Giraffe.atlas.txt" />
     <None Include="Assets\LeanTween\License.txt" />
+    <None Include="Assets\AnimalsSprites\Flower\Flower.atlas.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/adarsh/Downloads/Baby Einstein/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

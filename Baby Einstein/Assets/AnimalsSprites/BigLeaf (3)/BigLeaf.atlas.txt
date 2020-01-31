@@ -1,0 +1,20 @@
+
+BigLeaf.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leaf
+  rotate: false
+  xy: 2, 185
+  size: 386, 257
+  orig: 416, 305
+  offset: 0, 1
+  index: -1
+Water droplet
+  rotate: true
+  xy: 390, 384
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1
