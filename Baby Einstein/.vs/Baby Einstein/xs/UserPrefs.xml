@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{E0724611-656E-8A67-54DD-5AE4023556E5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AccelerometerManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Plants.cs">
     <Files>
-      <File FileName="Assets/Scripts/GyroManager.cs" Line="53" Column="21" />
-      <File FileName="Assets/Scripts/EnumAudioTypes.cs" Line="3" Column="12" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="11" Column="37" />
-      <File FileName="Assets/Scripts/Character.cs" Line="24" Column="6" />
-      <File FileName="Assets/Scripts/EnumTypes.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="51" Column="32" />
+      <File FileName="Assets/Scripts/UIScript.cs" Line="14" Column="33" />
+      <File FileName="Assets/Scripts/AudioScript.cs" Line="31" Column="6" />
+      <File FileName="Assets/Scripts/Plants.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Character.cs" Line="30" Column="5" />
+      <File FileName="Assets/Scripts/EnumTypes.cs" Line="1" Column="1" />
       <File FileName="Assets/Spine/Runtime/spine-csharp/AnimationState.cs" />
-      <File FileName="Assets/Scripts/Parallex.cs" />
-      <File FileName="Assets/Horizontal Fit 2D 3/_Scripts/CameraSizeHandler.cs" Line="24" Column="35" />
-      <File FileName="Assets/Horizontal Fit 2D 3/_Scripts/Editor/CSHEditor.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AccelerometerManager.cs" Line="31" Column="6" />
+      <File FileName="Assets/Scripts/AccelerometerManager.cs" Line="27" Column="9" />
+      <File FileName="Assets/Shaders/Outlined_Diffused.shader" Line="137" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fe429a2-c449-4bef-9fb4-2705b9720a6c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbe86ca0-868b-4e85-b8fc-854689efae7c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

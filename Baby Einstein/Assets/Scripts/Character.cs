@@ -26,6 +26,8 @@ public class Character : MonoBehaviour
         SetCharacterState(currentState);
     }
 
+    
+
     private void FixedUpdate()
     {
         
@@ -39,9 +41,11 @@ public class Character : MonoBehaviour
                 if (hit.collider.gameObject.tag == gameObject.tag)
                 {
                     SetCharacterState(anims[1].name);
-                    //audioSource.PlayOneShot(clips[0]);
                 }
-
+                //if(hit.collider.gameObject.tag == "Plants")
+                //{
+                //    this.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+                //}
             }
             
         }

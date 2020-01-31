@@ -8,6 +8,7 @@ TagManager:
   - Dog
   - Giraffe
   - Zebra
+  - Plants
   layers:
   - Default
   - TransparentFX

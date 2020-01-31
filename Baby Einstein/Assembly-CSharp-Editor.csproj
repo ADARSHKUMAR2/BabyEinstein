@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Horizontal Fit 2D 3\_Scripts\Editor\CSHEditor.cs" />
+    <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/adarsh/Downloads/Baby Einstein/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
