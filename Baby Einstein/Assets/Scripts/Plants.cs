@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using Spine.Unity;
 
 public class Plants : MonoBehaviour
 {
     public GameObject allCharacters;
+    private bool isRaycastEnabled = false;
 
     [SerializeField]
     private AnimationReferenceAsset[] anims;
@@ -20,15 +22,33 @@ public class Plants : MonoBehaviour
     private string currentAnimation;
 
     private UIScript uiScript;
+    private Vector3 scaleChange;
+    private Vector3 currentScale;
+    private float duration = 2f;
+    private float incrementScale = 0.2f;
+
+    public bool isPlantsClicked = false;
+    private PlantsController plantsController;
 
     void Start()
     {
+        plantsController =GameManager.current.GetComponent<PlantsController>();
+        scaleChange = new Vector3(incrementScale,incrementScale,1f);
+        currentScale = transform.localScale;
         uiScript = GetComponent<UIScript>();
         GameManager.current.onPlantsInteract += OnPlantsInteract;
         currentState = anims[0].name;
         SetCharacterState(currentState);
+        StartCoroutine(DetectRaycast());
+     
     }
 
+    public IEnumerator DetectRaycast()
+    {
+        yield return new WaitForSeconds(9f);
+        isRaycastEnabled = true;
+        HighlightObject();
+    }
 
     private void OnPlantsInteract()
     {
@@ -40,26 +60,70 @@ public class Plants : MonoBehaviour
 
     private void FixedUpdate()
     {
-
-        if (Input.GetMouseButtonDown(0))
+        if(isRaycastEnabled)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
-            if (hit.collider != null)
-            {
-                Debug.Log("I'm hitting " + hit.collider.tag);
-                if (hit.collider.gameObject.tag == "Plants")
-                {
-                      SetCharacterState(anims[1].name);
-                      StartCoroutine(EnableTheCharacters());
-                }
-            }
+            //for(float i=0;i<scaleChange;i+=0.02f)
+            //{
+            //    transform.localScale = new Vector3(Mathf.Clamp(transform.localScale.x, 0, currentScale + i), transform.localScale.y);
+            //}
 
+            if (Input.GetMouseButtonDown(0))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+                if (hit.collider != null)
+                {
+                    Debug.Log("I'm hitting " + hit.collider.tag);
+                    if (hit.collider.gameObject.tag == gameObject.tag)
+                    {
+                        SetCharacterState(anims[1].name);
+                        isPlantsClicked = true;
+                        //LeanTween.cancel();
+                        plantsController.CancelTweenOnPlants();
+                        StartCoroutine(EnableTheCharacters());
+                        //foreach (var plant in plantsController.GetComponentsInChildren<Plants>())
+                        //{
+                        //   LeanTween.cancel(gameObject);
+                        //}
+                    }
+                }
+
+            }
         }
 
-
     }
-    
+
+    public void HighlightObject()
+    {
+        //float i = 0.0f;
+        //float rate = (1.0f / duration) * speed;
+        //while(i<1.0f)
+        //{
+        //    i += Time.deltaTime;
+        //    transform.localScale = Vector3.Lerp(currentScale, currentScale + scaleChange, i);
+        //    yield return null;
+        //}
+        ScaleUp();
+    }
+
+    public void ScaleUp()
+    {
+        if(!isPlantsClicked)
+        {
+             LeanTween.scale(this.gameObject, currentScale + scaleChange, duration).setOnComplete(ScaleDown);
+        }
+            
+    }
+
+    public void ScaleDown()
+    {
+        if(!isPlantsClicked)
+        {
+            LeanTween.scale(this.gameObject, currentScale, duration).setOnComplete(ScaleUp);
+        }
+            
+    }
+
     public IEnumerator EnableTheCharacters()
     {
         uiScript.GetComponent<UIScript>().EndAnimationText();
@@ -67,7 +131,7 @@ public class Plants : MonoBehaviour
 
         foreach (var character in allCharacters.GetComponentsInChildren<BoxCollider2D>())
         {
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(2f);
             character.enabled = true;
         }
 
@@ -107,3 +171,4 @@ public class Plants : MonoBehaviour
     }
     
 }
+    

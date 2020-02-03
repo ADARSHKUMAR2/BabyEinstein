@@ -5,8 +5,10 @@ ScriptsOnlyBuild:
     - AudioScript
     - CameraSizeHandler
     - Character
+    - CharacterController
     - GameManager
     - Plants
+    - PlantsController
     - Reporter
     - ReporterMessageReceiver
     - UIScript
@@ -15,6 +17,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -50,8 +53,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -63,45 +64,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 770}
+      Script: {instanceID: 774}
     - Class: 114
-      Script: {instanceID: 9508}
+      Script: {instanceID: 9512}
     - Class: 114
-      Script: {instanceID: 9522}
+      Script: {instanceID: 9526}
     - Class: 114
-      Script: {instanceID: 9710}
+      Script: {instanceID: 9712}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9720}
     - Class: 114
-      Script: {instanceID: 9730}
+      Script: {instanceID: 9726}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9818}
+      Script: {instanceID: 9772}
     - Class: 114
-      Script: {instanceID: 10202}
+      Script: {instanceID: 9822}
     - Class: 114
-      Script: {instanceID: 10620}
+      Script: {instanceID: 10206}
     - Class: 114
-      Script: {instanceID: 10868}
+      Script: {instanceID: 10624}
     - Class: 114
-      Script: {instanceID: 11028}
+      Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 11040}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11050}
+      Script: {instanceID: 11044}
     - Class: 114
-      Script: {instanceID: 11090}
+      Script: {instanceID: 11054}
     - Class: 114
-      Script: {instanceID: 11144}
+      Script: {instanceID: 11094}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11148}
     - Class: 114
-      Script: {instanceID: 11762}
+      Script: {instanceID: 11722}
+    - Class: 114
+      Script: {instanceID: 11766}
+    - Class: 114
+      Script: {instanceID: 59664}
+    - Class: 114
+      Script: {instanceID: 69648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -421,7 +428,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: aaf6e77d588218f0271dfb93049b040b
+      Hash: 514e5deada5e5b16a2eedb9ebb95a992
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIScript
@@ -1255,7 +1262,7 @@ ScriptsOnlyBuild:
     className: CameraSizeHandler
   - hash:
       serializedVersion: 2
-      Hash: 6b4e894b94d231aeddee31dac6f35425
+      Hash: 674fba563eb593170b4c659970bf0d63
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Plants
@@ -1925,7 +1932,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5349f9521e024b0409bf965e4f06f069
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlantsController
+  - hash:
+      serializedVersion: 2
+      Hash: 8bcb5fd04fb5fbb1ae75067e7abf1d00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/adarsh/Downloads/Baby Einstein/BabyEinstein_45.apk
+  playerPath: /Users/adarsh/Downloads/Baby Einstein/BabyEinstein_49.apk

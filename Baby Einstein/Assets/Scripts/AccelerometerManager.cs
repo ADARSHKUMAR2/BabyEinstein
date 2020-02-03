@@ -27,7 +27,7 @@ public class AccelerometerManager : MonoBehaviour
         //Debug.Log(direction);
         transform.position = new Vector2(Mathf.Clamp(transform.position.x, pos - (speed/6) , pos + (speed/6)), transform.position.y);
         //transform.position = Vector3.SmoothDamp(Mathf.Clamp(transform.position.x, pos - (speed/6) , pos + (speed/6)), transform.position.y,ref vel,0.3f);
-
+        
         //transform.position =Mathf.Lerp(new Vector2(Mathf.Clamp(transform.position.x, pos - (speed/6) , pos + (speed/6)), transform.position.y);
     }
 

@@ -100,9 +100,11 @@
     <Compile Include="Assets\Scripts\AccelerometerManager.cs" />
     <Compile Include="Assets\Scripts\AudioScript.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Scripts\EnumTypes.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Plants.cs" />
+    <Compile Include="Assets\Scripts\PlantsController.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
@@ -112,11 +114,13 @@
     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
     <None Include="Assets\AnimalsSprites\BigLeaf (3)\BigLeaf.atlas.txt" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
+    <None Include="Assets\AnimalsSprites\Leaf1\Leaf1.atlas.txt" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
     <None Include="Assets\AnimalsSprites\Zebra\Zebra.atlas.txt" />
     <None Include="Assets\AnimalsSprites\Tiger\Tiger.atlas.txt" />
     <None Include="Assets\Shaders\Outlined_Diffused.shader" />
     <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\AnimalsSprites\Leaf2\Leaf2.atlas.txt" />
     <None Include="Assets\AnimalsSprites\Dog\Dog.atlas.txt" />
     <None Include="Assets\Shaders\Outline.shader" />
     <None Include="Assets\Horizontal Fit 2D 3\Reedme.txt" />

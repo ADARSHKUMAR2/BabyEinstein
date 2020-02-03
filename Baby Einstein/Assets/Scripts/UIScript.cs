@@ -8,20 +8,40 @@ public class UIScript : MonoBehaviour
     public Image img;
     public Image img2;
 
+    [SerializeField]
+    private Text first_text;
     public Text second_Text;
     public Text third_Text;
 
     private float start_pos;
     private float end_pos;
     private float dis = 400f;
+
+    private float delay = 0.1f;
+    private string fullText = "Walk through the \n morning dewdrops with me ";
+    private string currentText="";
+
+    private CharacterController characterController;
     //private float lerp_time = 10;
     //private float currentLerpTime;
 
     void Start()
     {
+        StartCoroutine(TypeWriter());
+        characterController = GameManager.current.GetComponent<CharacterController>();
         start_pos = second_Text.transform.position.y;
         end_pos = second_Text.transform.position.y -     dis;
         GameManager.current.onPanel1_Active += OnPanel1_Active;
+    }
+
+    private IEnumerator TypeWriter()
+    {
+        for (int i = 0; i < fullText.Length; i++)
+        {
+            currentText = fullText.Substring(0, i);
+            first_text.GetComponent<Text>().text = currentText;
+            yield return new WaitForSeconds(delay);
+        }
     }
 
     private void OnPanel1_Active()
@@ -47,6 +67,7 @@ public class UIScript : MonoBehaviour
     public void AnimationText2()
     {
         //second_Text.gameObject.SetActive(false);
+        characterController.StartHighlighting();
         LeanTween.moveY(img2.gameObject, end_pos, 3f).setEase(LeanTweenType.easeInOutCubic).setDelay(3f);
         third_Text.text = "MAKE YOUR FRIENDS, BABY TIGER AND BABY ZEBRA \n WAVE AT YOU BY TAPPING ON THEM";
     }
@@ -59,8 +80,12 @@ public class UIScript : MonoBehaviour
 
     private IEnumerator DestroyTheTextObject()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         Destroy(img2.gameObject);
+        Destroy(img.gameObject);
+        Destroy(first_text.gameObject);
+        Destroy(second_Text.gameObject);
+        Destroy(third_Text.gameObject);
     }
 
     private void OnDestroy()

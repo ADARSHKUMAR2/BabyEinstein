@@ -1,0 +1,20 @@
+
+Leaf2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Leaf-2
+  rotate: false
+  xy: 2, 79
+  size: 189, 166
+  orig: 196, 186
+  offset: 7, 20
+  index: -1
+Water droplet
+  rotate: true
+  xy: 193, 187
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1

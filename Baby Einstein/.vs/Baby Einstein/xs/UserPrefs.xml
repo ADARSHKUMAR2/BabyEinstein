@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{E0724611-656E-8A67-54DD-5AE4023556E5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Outline.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterController.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="37" Column="42" />
-      <File FileName="Assets/Scripts/UIScript.cs" Line="60" Column="39" />
-      <File FileName="Assets/Scripts/AudioScript.cs" Line="31" Column="6" />
-      <File FileName="Assets/Scripts/Plants.cs" Line="28" Column="1" />
-      <File FileName="Assets/Scripts/Character.cs" Line="88" Column="6" />
-      <File FileName="Assets/Scripts/EnumTypes.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="13" Column="21" />
+      <File FileName="Assets/Scripts/Plants.cs" Line="27" Column="33" />
+      <File FileName="Assets/Scripts/Character.cs" Line="26" Column="41" />
+      <File FileName="Assets/Scripts/PlantsController.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/AccelerometerManager.cs" Line="30" Column="9" />
+      <File FileName="Assets/Scripts/UIScript.cs" Line="62" Column="42" />
+      <File FileName="Assets/Scripts/AudioScript.cs" />
+      <File FileName="Assets/Scripts/EnumTypes.cs" />
       <File FileName="Assets/Spine/Runtime/spine-csharp/AnimationState.cs" />
-      <File FileName="Assets/Scripts/AccelerometerManager.cs" Line="24" Column="11" />
-      <File FileName="Assets/Shaders/Outlined_Diffused.shader" Line="137" Column="1" />
-      <File FileName="Assets/Horizontal Fit 2D 3/_Scripts/CameraSizeHandler.cs" Line="28" Column="33" />
-      <File FileName="Assets/Shaders/Outline.shader" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CharacterController.cs" Line="8" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbe86ca0-868b-4e85-b8fc-854689efae7c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e39333fd-1aac-49a8-a05a-5816bfddf16e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
