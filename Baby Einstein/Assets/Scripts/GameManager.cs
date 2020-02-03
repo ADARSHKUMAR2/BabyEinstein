@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator PlayTheAudio()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(0.2f);
         if(onPlayAudio!=null)
         {
             onPlayAudio();

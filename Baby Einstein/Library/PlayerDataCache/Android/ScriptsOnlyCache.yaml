@@ -1436,7 +1436,7 @@ ScriptsOnlyBuild:
     className: AccelerometerManager
   - hash:
       serializedVersion: 2
-      Hash: e6a29b144bb51a391aae6adbc7315920
+      Hash: a012bd7f646d0ac82422fe26bf8d440d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Character
@@ -1947,4 +1947,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/adarsh/Downloads/Baby Einstein/BabyEinstein_49.apk
+  playerPath: /Users/adarsh/Downloads/Baby Einstein/BabyEinstein_52.apk

@@ -6,6 +6,7 @@ public class CharacterController : MonoBehaviour
 {
     public static CharacterController current;
 
+
     [SerializeField]
     private List<Character> characters;
 
@@ -18,6 +19,7 @@ public class CharacterController : MonoBehaviour
         foreach (var character in characters)
         {
             LeanTween.cancel(character.gameObject);
+
         }
 
     }
@@ -28,6 +30,14 @@ public class CharacterController : MonoBehaviour
         foreach (var character in characters)
         {
             character.HIghlightObject();
+        }
+    }
+
+    public void ResetScale()
+    {
+        foreach(var character in characters)
+        {
+            character.Rescale();
         }
     }
 }

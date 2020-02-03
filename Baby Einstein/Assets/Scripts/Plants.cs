@@ -81,6 +81,8 @@ public class Plants : MonoBehaviour
                         //LeanTween.cancel();
                         plantsController.CancelTweenOnPlants();
                         StartCoroutine(EnableTheCharacters());
+                        PlantsController.current.DisableColliders();
+                        plantsController.ResetScale();
                         //foreach (var plant in plantsController.GetComponentsInChildren<Plants>())
                         //{
                         //   LeanTween.cancel(gameObject);
@@ -91,6 +93,11 @@ public class Plants : MonoBehaviour
             }
         }
 
+    }
+
+    public void Rescale()
+    {
+        transform.localScale = currentScale;
     }
 
     public void HighlightObject()

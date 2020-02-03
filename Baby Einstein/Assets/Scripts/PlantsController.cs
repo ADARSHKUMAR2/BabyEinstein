@@ -7,7 +7,7 @@ public class PlantsController : MonoBehaviour
     public static PlantsController current;
 
     [SerializeField]
-    private List<Plants> plants;
+    private List<Plants>plants;
 
     private void Awake()
     {
@@ -23,5 +23,20 @@ public class PlantsController : MonoBehaviour
 
     }
 
+    public void DisableColliders()
+    {
+        foreach(var plant in plants)
+        {
+            plant.GetComponent<BoxCollider2D>().enabled=false;
+        }
 
+    }
+
+    public void ResetScale()    
+    {
+        foreach(var plant in plants)
+        {
+            plant.Rescale();
+        }
+    }
 }

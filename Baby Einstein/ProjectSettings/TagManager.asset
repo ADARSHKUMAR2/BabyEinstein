@@ -15,6 +15,9 @@ TagManager:
   - Leaf3
   - Flower2
   - Flower3
+  - Leaf4
+  - Leaf5
+  - Plants2
   layers:
   - Default
   - TransparentFX

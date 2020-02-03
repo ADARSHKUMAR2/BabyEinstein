@@ -21,11 +21,12 @@ public class Character : MonoBehaviour
     private bool isAnimalClicked = false;
 
     private Vector3 scaleChange;
-    private Vector3 currentScale;
+    public Vector3 currentScale;
     private float duration = 2f;
     private float incrementScale = 0.4f;
 
     public GameObject otherAnimals;
+    public GameObject Animals;
     
     private CharacterController characterController;
     private void Start()
@@ -57,6 +58,7 @@ public class Character : MonoBehaviour
                     characterController.CancelTweenOnAnimals();
                     SetCharacterState(anims[1].name);
                     uiScript.EndAnimationText2();
+                    characterController.ResetScale();
                     StartCoroutine(ActivateOtherAnimals());
                 }
             }
@@ -66,6 +68,11 @@ public class Character : MonoBehaviour
         
     }
 
+    public void Rescale()
+    {
+        transform.localScale = currentScale;
+    }
+   
     public IEnumerator ActivateOtherAnimals()
     {
         foreach (var character in otherAnimals.GetComponentsInChildren<BoxCollider2D>())
@@ -117,6 +124,7 @@ public class Character : MonoBehaviour
     public IEnumerator WaitForScale()
     {
         yield return new WaitForSeconds(5f);
+        SetAnimation(anims[2], true, 1f);
         ScaleUp();
     }
 

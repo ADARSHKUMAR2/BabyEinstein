@@ -1,0 +1,160 @@
+
+Tiger.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Face
+  rotate: false
+  xy: 189, 108
+  size: 208, 163
+  orig: 208, 163
+  offset: 0, 0
+  index: -1
+Fx/Big flare2
+  rotate: false
+  xy: 2, 273
+  size: 232, 237
+  orig: 300, 300
+  offset: 32, 31
+  index: -1
+L ear
+  rotate: false
+  xy: 399, 187
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+L eye
+  rotate: false
+  xy: 472, 357
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+L eyeblink
+  rotate: false
+  xy: 236, 273
+  size: 40, 49
+  orig: 40, 49
+  offset: 0, 0
+  index: -1
+L eyebro
+  rotate: true
+  xy: 473, 406
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: true
+  xy: 236, 324
+  size: 77, 47
+  orig: 77, 47
+  offset: 0, 0
+  index: -1
+L leg
+  rotate: false
+  xy: 346, 283
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+L pupil
+  rotate: false
+  xy: 432, 119
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 434, 199
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+Mouth base
+  rotate: false
+  xy: 354, 405
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: true
+  xy: 399, 96
+  size: 54, 31
+  orig: 54, 31
+  offset: 0, 0
+  index: -1
+R ear
+  rotate: false
+  xy: 285, 280
+  size: 51, 55
+  orig: 51, 55
+  offset: 0, 0
+  index: -1
+R eye
+  rotate: true
+  xy: 423, 294
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+R eyeblink
+  rotate: false
+  xy: 399, 227
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+R eyebro
+  rotate: false
+  xy: 446, 406
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: true
+  xy: 446, 425
+  size: 85, 59
+  orig: 85, 59
+  offset: 0, 0
+  index: -1
+R leg
+  rotate: false
+  xy: 285, 337
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+R pupil
+  rotate: false
+  xy: 399, 152
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 236, 403
+  size: 116, 107
+  orig: 116, 107
+  offset: 0, 0
+  index: -1
+flower blu
+  rotate: true
+  xy: 2, 90
+  size: 181, 185
+  orig: 181, 185
+  offset: 0, 0
+  index: -1
+flower stem
+  rotate: true
+  xy: 354, 342
+  size: 61, 116
+  orig: 61, 116
+  offset: 0, 0
+  index: -1
